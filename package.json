@@ -1,0 +1,29 @@
+{
+  "name": "API",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start:local": "nodemon ./build"
+  },
+  "dependencies": {
+    "@types/body-parser": "1.16.8",
+    "@types/cookie-parser": "1.4.1",
+    "@types/cors": "2.8.3",
+    "@types/dotenv": "4.0.2",
+    "@types/es6-shim": "0.31.35",
+    "@types/express": "4.11.1",
+    "body-parser": "1.18.2",
+    "cookie-parser": "1.4.3",
+    "cors": "2.8.4",
+    "dotenv": "5.0.1",
+    "express": "4.16.2",
+    "typescript": "2.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.17.1"
+  }
+}
